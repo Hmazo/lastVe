@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProgretFragment"
+    android:background="@drawable/lightbprogres">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Score : "
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:textStyle="bold|italic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_below="@id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4/5"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Worst Score :"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_below="@id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2/5"
+            android:textSize="17dp"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Score :"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold|italic"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_below="@id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2/5"
+            android:textSize="17dp"
+            android:layout_marginRight="70dp"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView8"
+            android:src="@drawable/progr"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</FrameLayout>
